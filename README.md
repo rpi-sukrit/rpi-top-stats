@@ -1,16 +1,16 @@
-top - 13:46:02 up 46 min,  2 users,  load average: 0.09, 0.04, 0.01
-Tasks: 167 total,   1 running, 166 sleeping,   0 stopped,   0 zombie
+top - 13:47:01 up 47 min,  2 users,  load average: 0.09, 0.04, 0.01
+Tasks: 168 total,   1 running, 167 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.3 us,  0.2 sy,  0.0 ni, 99.2 id,  0.3 wa,  0.0 hi,  0.0 si,  0.0 st
-KiB Mem:    947732 total,   307080 used,   640652 free,    25600 buffers
-KiB Swap:   102396 total,        0 used,   102396 free.   176880 cached Mem
+KiB Mem:    947732 total,   307380 used,   640352 free,    25700 buffers
+KiB Swap:   102396 total,        0 used,   102396 free.   176920 cached Mem
 
   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
- 3436 root      20   0    5108   2412   2096 R   5.7  0.3   0:00.04 top
-    1 root      20   0   22896   4044   2732 S   0.0  0.4   0:05.00 systemd
+ 3482 root      20   0    5108   2460   2144 R  12.2  0.3   0:00.03 top
+    1 root      20   0   22896   4044   2732 S   0.0  0.4   0:05.02 systemd
     2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd
     3 root      20   0       0      0      0 S   0.0  0.0   0:00.07 ksoftirqd/0
     5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+
-    7 root      20   0       0      0      0 S   0.0  0.0   0:00.38 rcu_sched
+    7 root      20   0       0      0      0 S   0.0  0.0   0:00.39 rcu_sched
     8 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh
     9 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 migration/0
    10 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 migration/1
@@ -75,37 +75,37 @@ KiB Swap:   102396 total,        0 used,   102396 free.   176880 cached Mem
    86 root      20   0       0      0      0 S   0.0  0.0   0:00.15 jbd2/mmcbl+
    87 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ext4-rsv-c+
    89 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ipv6_addrc+
-  132 root      20   0    9944   3668   3384 S   0.0  0.4   0:01.70 systemd-jo+
+  132 root      20   0    9944   3684   3400 S   0.0  0.4   0:01.72 systemd-jo+
   137 root      20   0   11932   3192   2436 S   0.0  0.3   0:00.31 systemd-ud+
   202 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 cfg80211
   207 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 brcmf_wq/m+
-  208 root      20   0       0      0      0 S   0.0  0.0   0:00.29 brcmf_wdog+
+  208 root      20   0       0      0      0 S   0.0  0.0   0:00.30 brcmf_wdog+
   215 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_0
   216 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 scsi_tmf_0
   217 root      20   0       0      0      0 S   0.0  0.0   0:00.11 usb-storage
   340 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
   342 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+
   411 root      20   0    5100   2532   2304 S   0.0  0.3   0:00.05 cron
-  417 root      20   0    3852   2456   2176 S   0.0  0.3   0:00.35 systemd-lo+
-  426 avahi     20   0    3876   2496   2264 S   0.0  0.3   0:00.10 avahi-daem+
-  428 message+  20   0    5712   3200   2672 S   0.0  0.3   0:01.05 dbus-daemon
+  417 root      20   0    3852   2456   2176 S   0.0  0.3   0:00.36 systemd-lo+
+  426 avahi     20   0    3876   2496   2264 S   0.0  0.3   0:00.11 avahi-daem+
+  428 message+  20   0    5712   3200   2672 S   0.0  0.3   0:01.06 dbus-daemon
   433 root      20   0    2564   1636   1356 S   0.0  0.2   0:00.02 dhcpcd
   443 avahi     20   0    3876    240     16 S   0.0  0.0   0:00.00 avahi-daem+
-  498 root      20   0    7156   3264   2828 S   0.0  0.3   0:00.46 wpa_suppli+
-  536 root      20   0   32144   2940   2380 S   0.0  0.3   0:00.36 rsyslogd
+  498 root      20   0    7156   3264   2828 S   0.0  0.3   0:00.47 wpa_suppli+
+  536 root      20   0   32144   2940   2380 S   0.0  0.3   0:00.37 rsyslogd
   545 root      20   0    7864   4420   3964 S   0.0  0.5   0:00.07 sshd
   559 root      20   0    4520   2908   2564 S   0.0  0.3   0:00.04 systemd
   561 root      20   0   40544   6900   6140 S   0.0  0.7   0:00.15 lightdm
   564 root      20   0    6724   1200     16 S   0.0  0.1   0:00.00 (sd-pam)
-  577 root      20   0   31728   3204   2216 S   0.0  0.3   0:04.11 pihole-FTL
+  577 root      20   0   31728   3204   2216 S   0.0  0.3   0:04.14 pihole-FTL
   583 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/3:+
   604 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/2:+
   608 www-data  20   0   12036   5804   4680 S   0.0  0.6   0:00.20 lighttpd
   618 nobody    20   0    2292   1468   1344 S   0.0  0.2   0:00.02 thd
   626 dnsmasq   20   0   15212  11412   2212 S   0.0  1.2   0:02.02 dnsmasq
-  635 root      20   0  101848  28284  18048 S   0.0  3.0   0:01.44 Xorg
+  635 root      20   0  101848  28284  18048 S   0.0  3.0   0:01.46 Xorg
   665 root      20   0    5668   2804   2356 S   0.0  0.3   0:00.02 login
-  705 ntp       20   0    5776   3692   3252 S   0.0  0.4   0:00.29 ntpd
+  705 ntp       20   0    5776   3692   3252 S   0.0  0.4   0:00.30 ntpd
   742 www-data  20   0   87572  15888  13772 S   0.0  1.7   0:00.06 php-cgi
   829 www-data  20   0   87572   8880   6620 S   0.0  0.9   0:00.05 php-cgi
   831 www-data  20   0   87572   8072   5892 S   0.0  0.9   0:00.04 php-cgi
@@ -133,7 +133,7 @@ KiB Swap:   102396 total,        0 used,   102396 free.   176880 cached Mem
  1027 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/1:+
  1032 pi        20   0   20788  11948   9684 S   0.0  1.3   0:00.60 openbox
  1034 pi        20   0   30504   8560   7720 S   0.0  0.9   0:00.18 lxpolkit
- 1037 pi        20   0   94432  25008  21008 S   0.0  2.6   0:03.89 lxpanel
+ 1037 pi        20   0   94432  25008  21008 S   0.0  2.6   0:03.97 lxpanel
  1038 pi        20   0   75616  18612  16136 S   0.0  2.0   0:00.85 pcmanfm
  1043 root      20   0   40960   7348   6180 S   0.0  0.8   0:00.38 polkitd
  1047 pi        20   0    3700    220     16 S   0.0  0.0   0:00.00 ssh-agent
@@ -161,14 +161,15 @@ KiB Swap:   102396 total,        0 used,   102396 free.   176880 cached Mem
  2704 root      20   0       0      0      0 S   0.0  0.0   0:00.16 kworker/u8+
  2731 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kworker/3:2
  2776 root      20   0       0      0      0 S   0.0  0.0   0:00.06 kworker/2:2
- 2954 root      20   0       0      0      0 S   0.0  0.0   0:00.04 kworker/3:0
+ 2954 root      20   0       0      0      0 S   0.0  0.0   0:00.05 kworker/3:0
  2999 root      20   0       0      0      0 S   0.0  0.0   0:00.10 kworker/2:1
- 3044 root      20   0       0      0      0 S   0.0  0.0   0:00.04 kworker/0:2
+ 3044 root      20   0       0      0      0 S   0.0  0.0   0:00.05 kworker/0:2
  3169 root      20   0       0      0      0 S   0.0  0.0   0:00.03 kworker/1:0
- 3232 root      20   0       0      0      0 S   0.0  0.0   0:00.04 kworker/u8+
+ 3232 root      20   0       0      0      0 S   0.0  0.0   0:00.06 kworker/u8+
  3303 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/3:1
- 3392 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/2:0
- 3412 root      20   0    6496   2516   2156 S   0.0  0.3   0:00.01 cron
- 3416 root      20   0    1912    364    304 S   0.0  0.0   0:00.00 sh
- 3417 root      20   0    1912    396    336 S   0.0  0.0   0:00.00 sh
+ 3392 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/2:0
  3437 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/1:1
+ 3457 root      20   0    6496   2516   2156 S   0.0  0.3   0:00.01 cron
+ 3461 root      20   0    1912    380    320 S   0.0  0.0   0:00.00 sh
+ 3462 root      20   0    1912    376    316 S   0.0  0.0   0:00.00 sh
+ 3471 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/0:1
