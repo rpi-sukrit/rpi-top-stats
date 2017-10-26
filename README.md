@@ -1,28 +1,27 @@
-top - 15:55:08 up 0 min,  1 user,  load average: 0.98, 0.26, 0.09
-Tasks: 148 total,   2 running, 146 sleeping,   0 stopped,   0 zombie
-%Cpu(s):  7.4 us,  4.2 sy,  0.0 ni, 80.3 id,  8.0 wa,  0.0 hi,  0.1 si,  0.0 st
-KiB Mem:    947732 total,   228744 used,   718988 free,    19156 buffers
-KiB Swap:        0 total,        0 used,        0 free.   160560 cached Mem
+top - 15:56:09 up 0 min,  2 users,  load average: 0.31, 0.11, 0.04
+Tasks: 141 total,   2 running, 139 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  7.1 us,  4.3 sy,  0.0 ni, 80.3 id,  8.1 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:    947732 total,   228636 used,   719096 free,    19412 buffers
+KiB Swap:        0 total,        0 used,        0 free.   160668 cached Mem
 
   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
-    1 root      20   0   22960   4068   2744 R  77.1  0.4   0:03.51 systemd
-  132 root      20   0    9944   2924   2640 S  11.9  0.3   0:00.64 systemd-jo+
- 1251 root      20   0    5812   2780   2396 S   5.9  0.3   0:00.02 reboot
- 1355 root      20   0    5108   2408   2104 R   5.9  0.3   0:00.03 top
+    1 root      20   0   24000   4080   2728 R  90.2  0.4   0:03.58 systemd
+    3 root      20   0       0      0      0 S   6.0  0.0   0:00.02 ksoftirqd/0
+    6 root      20   0       0      0      0 D   6.0  0.0   0:00.11 kworker/u8+
+  133 root      20   0    9944   2860   2576 S   6.0  0.3   0:00.65 systemd-jo+
+ 1387 root      20   0    5108   2392   2092 R   6.0  0.3   0:00.03 top
     2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd
-    3 root      20   0       0      0      0 S   0.0  0.0   0:00.01 ksoftirqd/0
     4 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/0:0
     5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+
-    6 root      20   0       0      0      0 D   0.0  0.0   0:00.09 kworker/u8+
     7 root      20   0       0      0      0 S   0.0  0.0   0:00.04 rcu_sched
     8 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh
-    9 root      rt   0       0      0      0 S   0.0  0.0   0:00.01 migration/0
+    9 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 migration/0
    10 root      rt   0       0      0      0 S   0.0  0.0   0:00.01 migration/1
-   11 root      20   0       0      0      0 S   0.0  0.0   0:00.01 ksoftirqd/1
+   11 root      20   0       0      0      0 S   0.0  0.0   0:00.00 ksoftirqd/1
    12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/1:0
    13 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/1:+
    14 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/2
-   15 root      20   0       0      0      0 S   0.0  0.0   0:00.00 ksoftirqd/2
+   15 root      20   0       0      0      0 S   0.0  0.0   0:00.01 ksoftirqd/2
    16 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/2:0
    17 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/2:+
    18 root      rt   0       0      0      0 S   0.0  0.0   0:00.01 migration/3
@@ -37,15 +36,15 @@ KiB Swap:        0 total,        0 used,        0 free.   160560 cached Mem
    27 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 crypto
    28 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
    29 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kblockd
-   30 root      20   0       0      0      0 S   0.0  0.0   0:00.10 kworker/0:1
+   30 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/0:1
    31 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 rpciod
    32 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kswapd0
    33 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 vmstat
    34 root      20   0       0      0      0 S   0.0  0.0   0:00.00 fsnotify_m+
    35 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 nfsiod
    44 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kthrotld
-   45 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/1:1
-   46 root      20   0       0      0      0 S   0.0  0.0   0:00.13 kworker/2:1
+   45 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kworker/1:1
+   46 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
    47 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
    48 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
    49 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
@@ -69,12 +68,12 @@ KiB Swap:        0 total,        0 used,        0 free.   160560 cached Mem
    67 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
    68 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
    69 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
-   70 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
-   71 root       1 -19       0      0      0 S   0.0  0.0   0:00.00 VCHIQ-0
-   72 root       1 -19       0      0      0 S   0.0  0.0   0:00.00 VCHIQr-0
-   73 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 VCHIQs-0
-   74 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 iscsi_eh
-   75 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 dwc_otg
+   70 root       1 -19       0      0      0 S   0.0  0.0   0:00.00 VCHIQ-0
+   71 root       1 -19       0      0      0 S   0.0  0.0   0:00.00 VCHIQr-0
+   72 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 VCHIQs-0
+   73 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 iscsi_eh
+   74 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 dwc_otg
+   75 root      20   0       0      0      0 S   0.0  0.0   0:00.15 kworker/2:1
    76 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 DWC Notifi+
    77 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/u8+
    78 root     -51   0       0      0      0 S   0.0  0.0   0:00.01 irq/92-mmc1
@@ -86,70 +85,64 @@ KiB Swap:        0 total,        0 used,        0 free.   160560 cached Mem
    84 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/u8+
    85 root      20   0       0      0      0 S   0.0  0.0   0:00.01 jbd2/mmcbl+
    86 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ext4-rsv-c+
-   87 root      20   0       0      0      0 S   0.0  0.0   0:00.03 kworker/3:1
+   87 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/3:1
    88 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/2:2
    89 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ipv6_addrc+
-  114 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/1:2
-  115 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/0:2
-  137 root      20   0   11932   3032   2276 S   0.0  0.3   0:00.34 systemd-ud+
-  212 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 cfg80211
-  215 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 brcmf_wq/m+
-  216 root      20   0       0      0      0 S   0.0  0.0   0:00.01 brcmf_wdog+
-  222 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/3:2
-  228 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kworker/u8+
-  236 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_0
-  237 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 scsi_tmf_0
-  238 root      20   0       0      0      0 S   0.0  0.0   0:00.01 usb-storage
+  111 root      20   0       0      0      0 S   0.0  0.0   0:00.09 kworker/0:2
+  115 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/0:3
+  127 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/3:2
+  138 root      20   0   11932   3000   2276 S   0.0  0.3   0:00.29 systemd-ud+
+  217 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 cfg80211
+  223 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 brcmf_wq/m+
+  224 root      20   0       0      0      0 S   0.0  0.0   0:00.00 brcmf_wdog+
+  226 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/1:2
+  227 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/1:3
+  230 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/u8+
+  233 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_0
+  234 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 scsi_tmf_0
+  235 root      20   0       0      0      0 S   0.0  0.0   0:00.01 usb-storage
   374 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
   376 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+
-  401 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/1:3
-  417 root      20   0    3852   2408   2128 S   0.0  0.3   0:00.05 systemd-lo+
-  440 root      20   0    2564   1828   1548 S   0.0  0.2   0:00.01 dhcpcd
-  560 dnsmasq   20   0   15212  11304   2104 S   0.0  1.2   0:02.11 dnsmasq
-  563 root      20   0    7156   3368   2932 S   0.0  0.4   0:00.03 wpa_suppli+
-  630 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/2:+
-  631 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/2:3
-  636 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/1:+
-  743 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/3:+
-  888 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/u9+
-  889 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hci0
-  890 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hci0
-  891 root      20   0    2068    148     16 S   0.0  0.0   0:00.00 hciattach
-  893 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/u9+
-  894 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/u9+
- 1189 root      20   0       0      0      0 S   0.0  0.0   0:00.00 jbd2/sda2-8
- 1190 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ext4-rsv-c+
- 1239 root      20   0    6496   2572   2212 S   0.0  0.3   0:00.01 cron
- 1240 root      20   0    6496   2572   2212 S   0.0  0.3   0:00.01 cron
- 1246 root      20   0    1912    380    320 S   0.0  0.0   0:00.00 sh
- 1247 root      20   0    1912    392    332 S   0.0  0.0   0:00.00 sh
- 1250 root      20   0    1912    408    348 S   0.0  0.0   0:00.00 sh
- 1266 root      20   0   11932   1764   1008 S   0.0  0.2   0:00.00 systemd-ud+
- 1267 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/0:3
- 1268 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/0:4
- 1303 root      20   0    2172   1280   1188 S   0.0  0.1   0:00.00 systemd-cg+
- 1305 root      20   0    2172   1288   1196 S   0.0  0.1   0:00.00 systemd-cg+
- 1307 root      20   0    2172   1324   1232 S   0.0  0.1   0:00.00 systemd-cg+
- 1313 root      20   0    2172   1300   1208 S   0.0  0.1   0:00.00 systemd-cg+
- 1317 root      20   0    2172   1284   1192 S   0.0  0.1   0:00.00 systemd-cg+
- 1318 root      20   0    2172   1288   1196 S   0.0  0.1   0:00.00 systemd-cg+
- 1323 root      20   0    2172   1260   1168 S   0.0  0.1   0:00.00 systemd-cg+
- 1325 root      20   0    2172   1268   1176 S   0.0  0.1   0:00.00 systemd-cg+
- 1331 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/u8+
- 1334 root      20   0    2172   1228   1136 S   0.0  0.1   0:00.00 systemd-cg+
- 1337 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/2:4
- 1338 root      20   0    2172   1272   1180 S   0.0  0.1   0:00.00 systemd-cg+
- 1340 root      20   0    2172   1280   1188 S   0.0  0.1   0:00.00 systemd-cg+
- 1341 root      20   0    2172   1304   1212 S   0.0  0.1   0:00.00 systemd-cg+
- 1351 root      20   0    2172   1248   1156 S   0.0  0.1   0:00.00 systemd-cg+
- 1357 root      20   0    2172   1272   1180 S   0.0  0.1   0:00.00 systemd-cg+
- 1361 root      20   0    2172   1244   1152 S   0.0  0.1   0:00.00 systemd-cg+
- 1362 root      20   0    2172   1344   1252 S   0.0  0.1   0:00.00 systemd-cg+
- 1371 root      20   0    2172   1256   1164 S   0.0  0.1   0:00.00 systemd-cg+
- 1373 root      20   0    2172   1236   1144 S   0.0  0.1   0:00.00 systemd-cg+
- 1374 root      20   0    2172   1260   1168 S   0.0  0.1   0:00.00 systemd-cg+
- 1375 root      20   0    2172   1196   1104 S   0.0  0.1   0:00.00 systemd-cg+
- 1379 root      20   0    2172   1272   1180 S   0.0  0.1   0:00.00 systemd-cg+
- 1380 root      20   0    2172   1280   1188 S   0.0  0.1   0:00.00 systemd-cg+
- 1381 root      20   0    2172   1368   1276 S   0.0  0.1   0:00.00 systemd-cg+
- 1382 root      20   0    2172   1228   1136 S   0.0  0.1   0:00.00 systemd-cg+
+  418 root      20   0    3852   2408   2128 S   0.0  0.3   0:00.05 systemd-lo+
+  442 root      20   0    2564   1636   1356 S   0.0  0.2   0:00.01 dhcpcd
+  502 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/u8+
+  560 dnsmasq   20   0   15212  11244   2044 S   0.0  1.2   0:02.10 dnsmasq
+  582 root      20   0    7156   3272   2836 S   0.0  0.3   0:00.03 wpa_suppli+
+  630 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/3:+
+  634 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/2:+
+  907 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/u9+
+  908 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hci0
+  909 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hci0
+  910 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/u9+
+  911 root      20   0    2068    148     16 S   0.0  0.0   0:00.00 hciattach
+  912 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/u9+
+ 1222 root      20   0       0      0      0 S   0.0  0.0   0:00.00 jbd2/sda2-8
+ 1223 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ext4-rsv-c+
+ 1273 root      20   0    6496   2440   2080 S   0.0  0.3   0:00.01 cron
+ 1274 root      20   0    6496   2468   2108 S   0.0  0.3   0:00.01 cron
+ 1281 root      20   0    1912    396    336 S   0.0  0.0   0:00.00 sh
+ 1282 root      20   0    1912    396    336 S   0.0  0.0   0:00.00 sh
+ 1283 root      20   0    1912    412    352 S   0.0  0.0   0:00.00 sh
+ 1284 root      20   0    5812   2708   2316 S   0.0  0.3   0:00.01 reboot
+ 1303 root      20   0   11932   1672    948 S   0.0  0.2   0:00.00 systemd-ud+
+ 1333 root      20   0    2172   1368   1276 S   0.0  0.1   0:00.00 systemd-cg+
+ 1347 root      20   0    2172   1248   1156 S   0.0  0.1   0:00.00 systemd-cg+
+ 1349 root      20   0    2172   1264   1172 S   0.0  0.1   0:00.00 systemd-cg+
+ 1359 root      20   0    2172   1292   1200 S   0.0  0.1   0:00.00 systemd-cg+
+ 1362 root      20   0    2172   1260   1168 S   0.0  0.1   0:00.00 systemd-cg+
+ 1365 root      20   0    2172   1292   1200 S   0.0  0.1   0:00.00 systemd-cg+
+ 1371 root      20   0    2172   1272   1180 S   0.0  0.1   0:00.00 systemd-cg+
+ 1372 root      20   0    2172   1252   1160 S   0.0  0.1   0:00.00 systemd-cg+
+ 1374 root      20   0    2172   1252   1160 S   0.0  0.1   0:00.00 systemd-cg+
+ 1388 root      20   0    2172   1296   1204 S   0.0  0.1   0:00.00 systemd-cg+
+ 1389 root      20   0    2172   1280   1188 S   0.0  0.1   0:00.00 systemd-cg+
+ 1391 root      20   0    2172   1308   1216 S   0.0  0.1   0:00.00 systemd-cg+
+ 1397 root      20   0    2172   1228   1136 S   0.0  0.1   0:00.00 systemd-cg+
+ 1399 root      20   0    2172   1320   1228 S   0.0  0.1   0:00.00 systemd-cg+
+ 1400 root      20   0    2172   1260   1168 S   0.0  0.1   0:00.00 systemd-cg+
+ 1404 root      20   0    2172   1288   1196 S   0.0  0.1   0:00.00 systemd-cg+
+ 1405 root      20   0    2172   1292   1200 S   0.0  0.1   0:00.00 systemd-cg+
+ 1408 root      20   0    2172   1260   1168 S   0.0  0.1   0:00.00 systemd-cg+
+ 1409 root      20   0    2172   1276   1184 S   0.0  0.1   0:00.00 systemd-cg+
+ 1411 root      20   0    2172   1272   1180 S   0.0  0.1   0:00.00 systemd-cg+
+ 1412 root      20   0    2172   1260   1168 S   0.0  0.1   0:00.00 systemd-cg+
