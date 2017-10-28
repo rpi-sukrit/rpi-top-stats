@@ -30,5 +30,5 @@ echo "$voltOutput">corevolts.json
 
 #GIT 
 git add .
-git commit -m "TOP STAT" --author "RPI Sukrit <>"
+git commit -m "RPI $date" --author "RPI Sukrit <>"
 git push -u origin master
