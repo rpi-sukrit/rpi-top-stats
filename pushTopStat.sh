@@ -1,5 +1,17 @@
 #CONSTANTS
 date=$(date)
+hour=$(date "+%H")
+
+#SPEED-TEST
+if (($hour%3==0))
+then
+    downloadStartTime=$(date "+%s")
+    mkdir /media/pi/temp/$downloadStartTime
+        wget -O /media/pi/temp/$downloadStartTime/speedtest.dat https://api.fast.com/netflix/speedtest?https=true
+    downloadEndTime=$(date "+%s")
+    downloadFileSize=$(du -h /media/pi/temp/$downloadStartTime/speedtest.dat)
+echo "{\"start\":\"$downloadStartTime\",\"end\":\"$downloadEndTime\",\"size\":\"$downloadFileSize\"}" > speedTest.json
+fi
 
 #TOP
 (top -n 1 -b | head -n 20) > top.txt
