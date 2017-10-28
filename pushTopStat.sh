@@ -9,7 +9,7 @@ then
     mkdir /media/pi/temp/$downloadStartTime
         wget -O /media/pi/temp/$downloadStartTime/speedtest.dat https://api.fast.com/netflix/speedtest?https=true
     downloadEndTime=$(date "+%s")
-    downloadFileSize=$(du -h /media/pi/temp/$downloadStartTime/speedtest.dat)
+    downloadFileSize=$(du -h /media/pi/temp/$downloadStartTime/speedtest.dat | cut -f1)
 echo "{\"start\":\"$downloadStartTime\",\"end\":\"$downloadEndTime\",\"size\":\"$downloadFileSize\"}" > speedTest.json
 fi
 
