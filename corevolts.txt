@@ -1,1 +1,1 @@
-{"date":"asd ","volt":"volt=1.3062V"}
+{"date":"Sat 28 Oct 14:01:22 EDT 2017","volt":"volt=1.3062V"}
