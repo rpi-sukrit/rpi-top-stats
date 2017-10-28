@@ -1,1 +1,1 @@
-{"date":"  ","volt":"volt=1.3062V"}
+{"date":"asd ","volt":"volt=1.3062V"}
