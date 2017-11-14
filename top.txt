@@ -1,17 +1,17 @@
-top - 12:30:01 up 13:19,  2 users,  load average: 0.02, 0.03, 0.00
-Tasks: 176 total,   1 running, 175 sleeping,   0 stopped,   0 zombie
+top - 13:00:02 up 13:49,  2 users,  load average: 0.02, 0.06, 0.01
+Tasks: 179 total,   1 running, 178 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
-KiB Mem:    947732 total,   403460 used,   544272 free,    62904 buffers
-KiB Swap:   102396 total,        0 used,   102396 free.   224208 cached Mem
+KiB Mem:    947732 total,   408916 used,   538816 free,    64204 buffers
+KiB Swap:   102396 total,        0 used,   102396 free.   224240 cached Mem
 
   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
- 5987 root      20   0    5108   2456   2144 R  12.1  0.3   0:00.03 top
- 5074 root      20   0       0      0      0 S   6.0  0.0   0:00.31 kworker/1:0
-    1 root      20   0   22924   4032   2744 S   0.0  0.4   0:05.42 systemd
+ 6133 root      20   0  125628  15944  13564 S  48.3  1.7   0:00.20 omxplayer.+
+ 6152 root      20   0    5108   2480   2168 R  12.1  0.3   0:00.03 top
+    1 root      20   0   22924   4032   2744 S   0.0  0.4   0:05.49 systemd
     2 root      20   0       0      0      0 S   0.0  0.0   0:00.02 kthreadd
-    3 root      20   0       0      0      0 S   0.0  0.0   0:00.53 ksoftirqd/0
+    3 root      20   0       0      0      0 S   0.0  0.0   0:00.55 ksoftirqd/0
     5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+
-    7 root      20   0       0      0      0 S   0.0  0.0   0:04.30 rcu_sched
+    7 root      20   0       0      0      0 S   0.0  0.0   0:04.49 rcu_sched
     8 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh
     9 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 migration/0
    10 root      rt   0       0      0      0 S   0.0  0.0   0:00.03 migration/1
