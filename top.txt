@@ -1,20 +1,20 @@
-top - 16:00:02 up 16:49,  2 users,  load average: 0.01, 0.01, 0.00
-Tasks: 172 total,   1 running, 171 sleeping,   0 stopped,   0 zombie
+top - 16:30:02 up 17:19,  2 users,  load average: 0.00, 0.00, 0.00
+Tasks: 166 total,   1 running, 165 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
-KiB Mem:    947732 total,   410032 used,   537700 free,    72588 buffers
-KiB Swap:   102396 total,        0 used,   102396 free.   223780 cached Mem
+KiB Mem:    947732 total,   409064 used,   538668 free,    74612 buffers
+KiB Swap:   102396 total,        0 used,   102396 free.   224264 cached Mem
 
   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
- 7374 root      20   0  127904  15984  13604 S  30.2  1.7   0:00.20 omxplayer.+
- 7393 root      20   0    5108   2404   2092 R  12.1  0.3   0:00.03 top
-   70 root       1 -19       0      0      0 S   6.0  0.0   0:00.11 VCHIQ-0
-    1 root      20   0   23900   4044   2740 S   0.0  0.4   0:06.01 systemd
+ 7582 root      20   0    5108   2332   2020 R  12.2  0.2   0:00.03 top
+    1 root      20   0   23900   4044   2740 S   0.0  0.4   0:06.07 systemd
     2 root      20   0       0      0      0 S   0.0  0.0   0:00.03 kthreadd
-    3 root      20   0       0      0      0 S   0.0  0.0   0:00.99 ksoftirqd/0
+    3 root      20   0       0      0      0 S   0.0  0.0   0:01.02 ksoftirqd/0
     5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+
-    7 root      20   0       0      0      0 S   0.0  0.0   0:05.84 rcu_sched
+    7 root      20   0       0      0      0 S   0.0  0.0   0:06.12 rcu_sched
     8 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh
-    9 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 migration/0
+    9 root      rt   0       0      0      0 S   0.0  0.0   0:00.03 migration/0
    10 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 migration/1
-   11 root      20   0       0      0      0 S   0.0  0.0   0:01.08 ksoftirqd/1
+   11 root      20   0       0      0      0 S   0.0  0.0   0:01.13 ksoftirqd/1
    13 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/1:+
+   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 migration/2
+   15 root      20   0       0      0      0 S   0.0  0.0   0:00.19 ksoftirqd/2
